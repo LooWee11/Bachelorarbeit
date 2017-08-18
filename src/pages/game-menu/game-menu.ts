@@ -31,6 +31,7 @@ export class GameMenu {
   }
 
   ionViewDidLoad() {
+    alert("test");
     this.preset_game();
 
     this.ageChanged();
