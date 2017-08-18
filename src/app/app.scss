@@ -1,0 +1,280 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+@font-face {
+  font-family: 'juice';
+  src: url('../assets/juice.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.alerting2 {
+  background-color: rgba(0,0,0,0);
+  color: white;
+
+
+  button{
+    color: black;
+  }
+  div{
+    background-color: #1c1c1c;
+
+
+
+    div{
+      display: block;
+
+
+
+
+      button:nth-child(1){
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+
+        font-size: 22px;
+
+
+        text-align: center;
+
+
+
+        span {
+          background-image: url("../assets/img/smile_1.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height:66px;
+          width:65px;
+
+          text-align: center !important;
+          color: yellow;
+          font-family: Chewy;
+        }
+      }
+      button:nth-child(2){
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+
+        font-size: 22px;
+
+
+        text-align: center;
+
+
+
+        span {
+          background-image: url("../assets/img/smile_2.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height:66px;
+          width:65px;
+
+          text-align: center !important;
+          color: blue;
+          font-family: Chewy;
+        }
+      }
+      button:nth-child(3){
+        float: left;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        font-size: 22px;
+
+
+
+
+        span {
+          background-image: url("../assets/img/smile_3.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height:66px;
+          width:65px;
+
+          font-family: Chewy;
+          color: green;
+          text-align: center !important;
+        }
+      }
+
+      button:nth-child(4){
+        float: left;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        font-size: 22px;
+
+
+
+
+        span {
+          background-image: url("../assets/img/smile_4.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height:66px;
+          width:65px;
+
+          font-family: Chewy;
+          color: green;
+          text-align: center !important;
+        }
+      }
+    }
+
+  }
+
+}
+.alerting {
+  background-color: rgba(0,0,0,0);
+  color: white;
+
+
+  button{
+    color: black;
+  }
+  div{
+    background-color: #1c1c1c;
+
+
+
+    div{
+      display: block;
+      right: auto;
+      left: auto;
+
+
+
+
+      button:nth-child(1){
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+
+         font-size: 22px;
+
+
+         text-align: center;
+
+
+
+         span {
+           background-image: url("../assets/img/ChildIconColor.png");
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+           height:66px;
+           width:49px;
+
+           text-align: center !important;
+           color: yellow;
+           font-family: Chewy;
+         }
+       }
+      button:nth-child(2){
+        float: left;
+        margin-left: auto;
+        margin-right: auto;
+
+        font-size: 22px;
+
+
+        text-align: center;
+
+
+
+        span {
+          background-image: url("../assets/img/AdultColor.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height:66px;
+          width:49px;
+
+          text-align: center !important;
+          color: blue;
+          font-family: Chewy;
+        }
+      }
+      button:nth-child(3){
+        float: left;
+
+        margin-left: auto;
+        margin-right: auto;
+
+        font-size: 22px;
+
+
+
+
+        span {
+          background-image: url("../assets/img/SeniorColor2.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          height:66px;
+          width:49px;
+
+          font-family: Chewy;
+          color: green;
+          text-align: center !important;
+        }
+      }
+    }
+
+  }
+
+}
+
+.action-sheet-ios .action-sheet-title {
+  padding: 1.5rem;
+  border-bottom: 0.55px solid #d6d6da;
+  border-radius: 0;
+  font-size: 4.3rem;
+  font-weight: 400;
+  text-align: center;
+  color: #8f8f8f;
+}
+
+.action-sheet-md .action-sheet-container {
+  height: 184px;
+  background-image: url(../assets/img/sad.png);
+  background-size: 340px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-color: rgba(0,0,0,0);
+
+
+}
+.action-sheet-md .action-sheet-button {
+  position: absolute;
+  overflow: hidden;
+  padding: 0 16px;
+  min-height: 4.8rem;
+  font-size: 1.6rem;
+  text-align: left;
+  color: #222;
+
+  bottom: 0;
+  margin-left: 46px;
+}
